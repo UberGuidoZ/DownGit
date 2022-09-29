@@ -2,6 +2,8 @@
 * Developer: Minhas Kamal (minhaskamal024@gmail.com)       *
 * Website: https://github.com/MinhasKamal/DownGit          *
 * License: MIT License                                     *
+*                                                          *
+* Simple mods by UberGuidoZ                                *
 ***********************************************************/
 
 var homeModule = angular.module('homeModule', [
@@ -32,7 +34,7 @@ homeModule.config([
 
                     var templateUrl = "https?://github.com/.+/.+";
                     var downloadUrlInfix = "#/home?url=";
-                    var downloadUrlPrefix = "https://minhaskamal.github.io/DownGit/"+downloadUrlInfix;
+                    var downloadUrlPrefix = "https://uberguidoz.github.io/DownGit/"+downloadUrlInfix;
 
                     if ($routeParams.url) {
                         $scope.url = $routeParams.url;
